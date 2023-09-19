@@ -1,0 +1,14 @@
+C:\Users\MichaëlHEID\source\repos\ProjetAlex\ProjetAlex\obj\Debug\net6.0\ProjetAlex.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MichaëlHEID\source\repos\ProjetAlex\ProjetAlex\obj\Debug\net6.0\ProjetAlex.AssemblyInfoInputs.cache
+C:\Users\MichaëlHEID\source\repos\ProjetAlex\ProjetAlex\obj\Debug\net6.0\ProjetAlex.AssemblyInfo.cs
+C:\Users\MichaëlHEID\source\repos\ProjetAlex\ProjetAlex\obj\Debug\net6.0\ProjetAlex.csproj.CoreCompileInputs.cache
+C:\Users\MichaëlHEID\source\repos\ProjetAlex\ProjetAlex\bin\Debug\net6.0\ProjetAlex.exe
+C:\Users\MichaëlHEID\source\repos\ProjetAlex\ProjetAlex\bin\Debug\net6.0\ProjetAlex.deps.json
+C:\Users\MichaëlHEID\source\repos\ProjetAlex\ProjetAlex\bin\Debug\net6.0\ProjetAlex.runtimeconfig.json
+C:\Users\MichaëlHEID\source\repos\ProjetAlex\ProjetAlex\bin\Debug\net6.0\ProjetAlex.dll
+C:\Users\MichaëlHEID\source\repos\ProjetAlex\ProjetAlex\bin\Debug\net6.0\ProjetAlex.pdb
+C:\Users\MichaëlHEID\source\repos\ProjetAlex\ProjetAlex\obj\Debug\net6.0\ProjetAlex.dll
+C:\Users\MichaëlHEID\source\repos\ProjetAlex\ProjetAlex\obj\Debug\net6.0\refint\ProjetAlex.dll
+C:\Users\MichaëlHEID\source\repos\ProjetAlex\ProjetAlex\obj\Debug\net6.0\ProjetAlex.pdb
+C:\Users\MichaëlHEID\source\repos\ProjetAlex\ProjetAlex\obj\Debug\net6.0\ProjetAlex.genruntimeconfig.cache
+C:\Users\MichaëlHEID\source\repos\ProjetAlex\ProjetAlex\obj\Debug\net6.0\ref\ProjetAlex.dll
