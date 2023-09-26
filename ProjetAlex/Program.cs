@@ -10,4 +10,6 @@ A = "423";
 B = "12";
 C = A + B;
 
+Console.WriteLine("La valeur de C est ");
+Console.WriteLine(C);
 
