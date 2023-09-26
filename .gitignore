@@ -397,3 +397,9 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 /.vs/ProjetAlex/FileContentIndex/6563c56f-d568-445c-a791-689994c4b377.vsidx
+/.vs/ProjetAlex/v17/.suo
+/ProjetAlex/bin/Debug/net6.0/ProjetAlex.dll
+/ProjetAlex/bin/Debug/net6.0/ProjetAlex.pdb
+/ProjetAlex/obj/Debug/net6.0/ProjetAlex.dll
+/ProjetAlex/obj/Debug/net6.0/ProjetAlex.pdb
+/.vs/ProjetAlex/v17/.futdcache.v2
