@@ -5,6 +5,6 @@ Console.WriteLine("Salut! Quel est ton prénom ?");
 
 string prenom = Console.ReadLine();
 
-Console.WriteLine($"Salut {prenom}");
+Console.WriteLine($"Salut {prenom} !");
 
 
