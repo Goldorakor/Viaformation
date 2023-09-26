@@ -7,5 +7,4 @@ string prenom = Console.ReadLine();
 
 Console.WriteLine($"Salut {prenom}");
 
-Console.WriteLine($"Belle journée");
 
