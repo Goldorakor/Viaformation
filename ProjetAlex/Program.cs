@@ -3,17 +3,17 @@ using System;
 
 Console.WriteLine("Quel est le prix hors taxes de l'article ?");
 string prix = Console.ReadLine();
-int A = int.Parse(prix);
+decimal A = decimal.Parse(prix);
 
 Console.WriteLine("Quel est le nombre d'articles ?");
 string nombre = Console.ReadLine();
 int B = int.Parse(nombre);
 
-Console.WriteLine("Quel est le taux de TVA ?");
+Console.WriteLine("Quel est le taux de TVA en % ?");
 string taux = Console.ReadLine();
-int C = int.Parse(taux);
+decimal C = decimal.Parse(taux);
 
-int resultat = ((20 / 100) + 1) * A * B;
+decimal resultat = ((C / 100) + 1) * A * B;
 
 Console.WriteLine($"Le prix total est de {resultat}");
 
