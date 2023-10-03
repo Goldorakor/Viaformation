@@ -3,6 +3,8 @@ using System;
 
 Console.WriteLine("Ecrire un nombre de votre choix ?");
 string nbsaisi = Console.ReadLine();
+nbsaisi = nbsaisi.Replace('.' , ',');
+
 
 // decimal nb = decimal.Parse(nbsaisi);
 
