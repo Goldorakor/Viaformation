@@ -11,27 +11,40 @@ bool succes01 = decimal.TryParse(nbsaisi01, out decimal nb01);
 
 if (succes01 == true)
 {
-    if (nb01 < 0)
+
+    if (nb01<0)
     {
-        Console.WriteLine("Le nombre est négatif");
+        Console.WriteLine($"Tu m'as donné un âge négatif, ne penses-tu pas plutôt avoir {-nb01} ans");
     }
 
-
-    else if (nb01 == 0)
+    if (nb01 >= 0 && nb01 < 6)
     {
-        Console.WriteLine("Le nombre est nul");
+        Console.WriteLine("Tu es encore trop jeune pour être inscrit dans une catégorie !");
     }
 
-
-
-    else if (nb01 > 0)
+    else if (nb01 == 6 || nb01 == 7)
     {
-        Console.WriteLine("Le nombre est positif");
+        Console.WriteLine("Tu es dans la catégorie Poussin");
     }
+
+    else if (nb01 == 8 || nb01 == 9)
+    {
+        Console.WriteLine("Tu es dans la catégorie Pupille");
+    }
+
+    else if (nb01 == 10 || nb01 == 11)
+    {
+        Console.WriteLine("Tu es dans la catégorie Minime");
+    }
+
+    else if (nb01 == 12 || nb01 > 12)
+    {
+        Console.WriteLine("Tu es dans la catégorie Cadet");
+    }
+
 }
 else
 {
-    Console.WriteLine("Je ne sais pas déterminer le signe de votre saisie !");
+    Console.WriteLine("Je ne sais pas déterminer votre catégorie !");
 }
-
 
