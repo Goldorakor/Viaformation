@@ -1,25 +1,25 @@
-﻿// On veut la tableau suivant : [0, 1, 2, 3, 4, 5]
+﻿// on demande la saisie d'un nombre à l'utilisateur
+Console.WriteLine("Merci de m'indiquer un nombre pour définir la taille du tableau.");
+string nbsaisi01 = Console.ReadLine();
 
+// on transforme la saisie string en nombre entier et on l'affecte à nb01
+bool succes01 = int.TryParse(nbsaisi01, out decimal nb01);
 
-// Solution ultra rapide :
-int[] tableau = new int[] { 0,1,2,3,4,5};
-
-
-// Solution plus évolutive :
-int[] tableau1 = new int[6];
-
-tableau1[0] = 0;
-tableau1[1] = 1;
-tableau1[2] = 2;
-tableau1[3] = 3;
-tableau1[4] = 4;
-tableau1[5] = 5;
 
 
 // Solution plus évolutive avec boucle for :
-int[] tableau2 = new int[6];
+if (succes01 == true)
+{
+    int[] tableau2 = new int[nb01];
 
-for (int i=0; i<6; i++)
+for (int i=0; i<nb01; i++)
 {
     tableau2[i] = i;
 }
+}
+else
+{
+    Console.WriteLine("Je ne sais pas déterminer votre tableau !");
+}
+
+
