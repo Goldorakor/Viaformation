@@ -18,7 +18,7 @@ for (int i=0; i < nb01; i++)
 {
     tableau2[i] = i;
 }
-    console.writeline($"elements[i]");
+    Console.WriteLine($"tableau2[i]");
 }
 else
 {
