@@ -1,20 +1,25 @@
-﻿// Faire saisir un tableau à l'utilisateur
+﻿// On veut la tableau suivant : [0, 1, 2, 3, 4, 5]
 
 
-decimal[] elements = new decimal[7];
-int i;
+// Solution ultra rapide :
+int[] tableau = new int[] { 0,1,2,3,4,5};
 
-for (int i = 0; i < 7; i++)
+
+// Solution plus évolutive :
+int[] tableau1 = new int[6];
+
+tableau1[0] = 0;
+tableau1[1] = 1;
+tableau1[2] = 2;
+tableau1[3] = 3;
+tableau1[4] = 4;
+tableau1[5] = 5;
+
+
+// Solution plus évolutive avec boucle for :
+int[] tableau2 = new int[6];
+
+for (int i=0; i<6; i++)
 {
-    elements[i] = i;
+    tableau2[i] = i;
 }
-
-for (int i = 0; i < 7; i++)
-{
-    console.writeline($"i");
-}
-
-Console.WriteLine("Merci pour votre attention !");
-
-
-
