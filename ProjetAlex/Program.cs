@@ -1,4 +1,6 @@
 ﻿// on demande la saisie d'un nombre à l'utilisateur
+using System;
+
 Console.WriteLine("Merci de m'indiquer un nombre pour définir la taille du tableau.");
 string nbsaisi01 = Console.ReadLine();
 
@@ -16,6 +18,7 @@ for (int i=0; i < nb01; i++)
 {
     tableau2[i] = i;
 }
+    console.writeline($"elements[i]");
 }
 else
 {
