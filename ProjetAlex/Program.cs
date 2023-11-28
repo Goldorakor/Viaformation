@@ -14,12 +14,14 @@ bool succes01 = int.TryParse(nbsaisi01, out int nb01);
 if (succes01 == true)
 {
     int[] tableau2 = new int[nb01];
-
-for (int i=0; i < nb01; i++)
+    Console.WriteLine("Voici les éléments du tableau");
+    for (int i=0; i < nb01; i++)
 {
     tableau2[i] = i;
+       
+        Console.WriteLine(tableau2[i]);
 }
-    Console.WriteLine($"tableau2[i]");
+   
 }
 else
 {
